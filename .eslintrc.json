@@ -1,3 +1,6 @@
 {
+  "rules":
+    "'@typescript-eslint/no-explicit-any': ['error', { fixToUnknown: true }]",
   "extends": ["next/core-web-vitals", "next/typescript"]
 }
+
